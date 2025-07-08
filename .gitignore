@@ -1,2 +1,10 @@
+<<<<<<< HEAD
 .env
 venv
+=======
+# Ignore virtual environment
+venv/
+
+# Ignore environment variable file
+.env
+>>>>>>> 7f6e19d7f574bdd1921d29cc58d80300c6bdd936
