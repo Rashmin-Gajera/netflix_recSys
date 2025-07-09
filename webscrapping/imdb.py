@@ -9,11 +9,11 @@ import time
 import random
 
 # Constants
-INPUT_FILE = "movie_descriptions.csv"
-OUTPUT_FILE = "movie_descriptions.csv"
+INPUT_FILE = "../datasets/netflix_v3.csv"
+OUTPUT_FILE = "../datasets/netflix_v3.csv"
 
 # Function to scrape images from IMDb
-def scrape_images_from_page(url, num_images=5, save_dir="."):
+def scrape_images_from_page(url, num_images=1, save_dir="../static/posters/"):
     # Create save directory if it doesn't exist
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
