@@ -7,9 +7,10 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 import random
+import numpy as np
 
-# Constants
-INPUT_FILE = "../datasets/netflix_v3.csv"
+# Constants for input files
+INPUT_FILE = "../datasets/netflix_v3.csv" #files for taking input
 OUTPUT_FILE = "../datasets/netflix_v3.csv"
 
 # Function to scrape images from IMDb
